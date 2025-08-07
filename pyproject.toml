@@ -1,5 +1,5 @@
 [project]
-name = "runtime.serialization"
+name = "runtime-serialization"
 dynamic = ["version"]
 description = "Provides serialization to and from json, hjson, yaml and toml files."
 keywords = ["windows", "linux", "serialization"]
@@ -35,7 +35,7 @@ dependencies = [
 requires-python = ">=3.10"
 
 [project.urls]
-repository = "https://github.com/apmadsen/runtime-reflection-lite"
+repository = "https://github.com/apmadsen/runtime-serialization"
 
 [project.optional-dependencies]
 test = [
