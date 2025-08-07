@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
     "typing-utilities >= 0.0.6, < 0.1",
-    "runtime-reflection-lite >= 0.1.1, < 0.2",
+    "runtime-reflection-lite >= 0.1.+-1, < 0.2",
     "python-dateutil >=2.9.0, < 2.10"
 ]
 requires-python = ">=3.10"

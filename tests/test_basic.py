@@ -35,7 +35,6 @@ from tests.classes.custom_set import CustomSet
 T = TypeVar('T')
 
 
-
 def test_baseclass_deserialization():
     test = TestType3()
     serializer = BaseSerializer[TestType3](Formatter)
